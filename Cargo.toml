@@ -6,3 +6,5 @@ members = ["pkg/web-client", "pkg/web-server"]
 tokio = { version = "1.43.0", features = ["full"] }
 reqwest = { version = "0.11", features = ["rustls-tls"] }
 actix-web = { version = "4" }
+rustls = { version = "0.23" }
+rustls-pki-types = { version = "1.11.0" }
